@@ -3,5 +3,9 @@
     "version" : "0.0.1",
     "displayName" : "Organic Faction",
     "description" : "Ships and other content to enable the organic faction in-game.",
-    "dependencies" : ["core"]
+    "dependencies" :  [
+        {
+            "id" : "core"
+        }
+    ]
 }
