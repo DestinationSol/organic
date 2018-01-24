@@ -8,8 +8,6 @@
         "angle": 180,
         "rechargeTime": 1
     },
-    "e1Pos": "0.025 0.5",
-    "e2Pos": "0.025 0.5",
     "engine": "organic:organicEngine",
     "gunSlots": [
         {
@@ -175,5 +173,29 @@
                 ]
             }
         ]
-    }
+    },
+    "particleEmitters": [
+        {
+            "position": "0.025 0.5",
+            "trigger": "engine",
+            "hasLight": true,
+            "particle": {
+                "effectFile": "core:flame",
+                "size": 0.1,
+                "tex": "core:fire",
+                "tint": "hsb 140 20 65"
+            }
+        },
+        {
+            "position": "0.025 0.5",
+            "trigger": "engine",
+            "hasLight": true,
+            "particle": {
+                "effectFile": "core:flame",
+                "size": 0.1,
+                "tex": "core:fire",
+                "tint": "hsb 140 20 65"
+            }
+        }
+    ]
 }
